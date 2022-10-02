@@ -108,7 +108,7 @@
 #     letters_guessed = []
 #     total_lives=remaining_lives=8
 #     image_selection=[0,1,2,3,4,5,6,7]
-#     difficulty_level=raw_input("Aap abhi kitni difficulty par yeh game khelna chahte ho?\na)\tEasy\nb)\tMedium\nc)\tHard\n\nApni choice a, b, ya c ki terms mei batayein\n")
+#     difficulty_level=input("Aap abhi kitni difficulty par yeh game khelna chahte ho?\na)\tEasy\nb)\tMedium\nc)\tHard\n\nApni choice a, b, ya c ki terms mei batayein\n")
 #     if difficulty_level=="b":
 #         total_lives=remaining_lives=6
 #         image_selection=[1,2,3,4,6,7]
@@ -124,7 +124,7 @@
 
 #         available_letters = get_available_letters(letters_guessed)
 #         print ("Available letters: " + available_letters)
-#         guess = raw_input("Please guess a letter: ")
+#         guess = input("Please guess a letter: ")
 #         letter = guess.lower()
 #         if letter=="hint":
 #             print("your hint this secret_word is-"+get_hint(secret_word,letters_guessed))
